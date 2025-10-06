@@ -6,7 +6,8 @@ echo "🔄 Making sure files are synced from Docker..."
 sleep 3
 
 echo "🚀 Committing and pushing..."
-git add wp-content/
+git add data/
+git add .
 git commit -m "WordPress update: $(date '+%Y-%m-%d %H:%M')"
 git push origin v0
 

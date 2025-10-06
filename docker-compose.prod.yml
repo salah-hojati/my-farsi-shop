@@ -26,7 +26,7 @@ services:
       WORDPRESS_DB_NAME: wordpress
     volumes:
       # ✅ سرور: دیتا از پروژه به داکر میره
-      - ./:/var/www/html:./data
+      - ./data:/var/www/html
       - ./php-config/php.ini:/usr/local/etc/php/conf.d/custom.ini
     # user معمولاً در سرور متفاوت است
 
