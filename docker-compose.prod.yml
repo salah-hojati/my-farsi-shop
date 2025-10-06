@@ -7,28 +7,29 @@ services:
       - db_data:/var/lib/mysql
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
-      MYSQL_PASSWORD: wordpress
+      MYSQL_PASSWORD: ${DB_PASSWORD}
 
   wordpress:
     depends_on:
       - db
     image: wordpress:php8.1-apache
     ports:
-      - "8000:80"
+      - "8000:80"  # ✅ پورت واقعی
     restart: always
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: wordpress
-      WORDPRESS_DB_PASSWORD: wordpress
+      WORDPRESS_DB_PASSWORD: ${DB_PASSWORD}
       WORDPRESS_DB_NAME: wordpress
     volumes:
+      # ✅ سرور: دیتا از پروژه به داکر میره
       - ./wp-content:/var/www/html/wp-content
       - ./uploads:/var/www/html/wp-content/uploads
       - ./php-config/php.ini:/usr/local/etc/php/conf.d/custom.ini
-    user: "1000:1000"
+    # user معمولاً در سرور متفاوت است
 
 volumes:
   db_data:
