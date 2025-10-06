@@ -3,4 +3,3 @@ root
 pass AG8GpTvOvnW1Q*RVmY
 
 github token
-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
