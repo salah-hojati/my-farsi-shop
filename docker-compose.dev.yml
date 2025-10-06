@@ -26,8 +26,7 @@ services:
       WORDPRESS_DB_NAME: wordpress
     volumes:
       # ✅ کلاینت: دیتا از داکر به پروژه میاد
-      - ./wp-content:/var/www/html/wp-content
-      - ./uploads:/var/www/html/wp-content/uploads
+      - ./:/var/www/html:./data
       - ./php-config/php.ini:/usr/local/etc/php/conf.d/custom.ini
     user: "1000:1000"
 
