@@ -1,0 +1,815 @@
+# Copyright (C) 2025 pewilliams
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Space Exploration 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/space-exploration\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-09-25T10:00:19+05:30\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: space-exploration\n"
+
+#. Theme Name of the theme
+#: style.css
+#: block-patterns.php:17
+msgid "Space Exploration"
+msgstr ""
+
+#. Theme URI of the theme
+#: style.css
+msgid "https://www.ovationthemes.com/products/space-exploration"
+msgstr ""
+
+#. Description of the theme
+#: style.css
+msgid "Space Exploration is a dynamic and visually captivating theme designed for space enthusiasts, astronomers, science bloggers, and educational platforms. With its modern layout and futuristic design elements, this theme offers the perfect platform to share discoveries, research, news, and insights related to space science and astronomy. Whether you are running a personal blog, a science-focused magazine, or an educational resource, Space Exploration ensures your content shines with clarity and impact. The theme comes with customizable sections for articles, galleries, and multimedia, allowing you to showcase stunning space imagery and engaging videos. It is fully responsive and optimized for speed, ensuring smooth performance across all devices. Built with clean coding standards, it is SEO-friendly, helping your content reach a wider audience. Additional features include multiple blog layouts, widget areas, and easy integration with plugins for extended functionality. With its intuitive customization options, you can tailor fonts, colors, and backgrounds to match your vision. Bring the wonders of the universe closer to your audience with the Space Exploration theme, where science meets creativity."
+msgstr ""
+
+#. Author of the theme
+#: style.css
+msgid "pewilliams"
+msgstr ""
+
+#. Author URI of the theme
+#: style.css
+msgid "https://www.ovationthemes.com/"
+msgstr ""
+
+#: patterns/404.php
+msgctxt "Pattern title"
+msgid "Page Not Found"
+msgstr ""
+
+#: patterns/404.php:11
+msgid "404"
+msgstr ""
+
+#: patterns/404.php:15
+msgid "Page not found!"
+msgstr ""
+
+#: patterns/404.php:19
+msgid "Sorry, the page you are looking for does not exist or has been moved."
+msgstr ""
+
+#: patterns/404.php:24
+msgid "Return Home"
+msgstr ""
+
+#: patterns/about-section.php
+msgctxt "Pattern title"
+msgid "About Section"
+msgstr ""
+
+#: patterns/about-section.php:11
+msgid "who we are"
+msgstr ""
+
+#: patterns/about-section.php:15
+msgid "we are the astronomy community."
+msgstr ""
+
+#: patterns/about-section.php:28
+msgid "15 +"
+msgstr ""
+
+#: patterns/about-section.php:32
+msgid "years of"
+msgstr ""
+
+#: patterns/about-section.php:32
+msgid "experience"
+msgstr ""
+
+#: patterns/about-section.php:40
+msgid "We are a mission-driven consulting firm, guiding businesses to reach new frontiers of growth. With expertise in business strategy, financial planning, and risk management, we help organizations navigate the vast universe of opportunities and achieve sustainable success. Our team serves as your co-pilot, charting the right trajectory for long-term impact. Together, we fuel innovation, break through barriers, and help your business shine among the stars."
+msgstr ""
+
+#: patterns/archive.php
+msgctxt "Pattern title"
+msgid "Archives"
+msgstr ""
+
+#: patterns/banner.php
+msgctxt "Pattern title"
+msgid "Banner"
+msgstr ""
+
+#: patterns/banner.php:12
+msgid "exploring the stargazing, one star at a time"
+msgstr ""
+
+#: patterns/banner.php:16
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr ""
+
+#: patterns/banner.php:21
+msgid "get started"
+msgstr ""
+
+#: patterns/cart.php
+msgctxt "Pattern title"
+msgid "Cart"
+msgstr ""
+
+#: patterns/cart.php:18
+msgid "You may be interested in…"
+msgstr ""
+
+#: patterns/cart.php:74
+msgid "Your cart is currently empty!"
+msgstr ""
+
+#: patterns/cart.php:82
+msgid "New in store"
+msgstr ""
+
+#: patterns/faq-section.php
+msgctxt "Pattern title"
+msgid "FAQ Section"
+msgstr ""
+
+#: patterns/faq-section.php:11
+msgid "FAQ’s"
+msgstr ""
+
+#: patterns/faq-section.php:15
+msgid "find the answers you’re looking for"
+msgstr ""
+
+#: patterns/faq-section.php:23
+msgid "1. What makes your approach stellar?"
+msgstr ""
+
+#: patterns/faq-section.php:24
+#: patterns/faq-section.php:30
+#: patterns/faq-section.php:36
+#: patterns/faq-section.php:42
+#: patterns/faq-section.php:52
+#: patterns/faq-section.php:58
+#: patterns/faq-section.php:64
+#: patterns/faq-section.php:70
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
+msgstr ""
+
+#: patterns/faq-section.php:29
+msgid "2. How do you launch businesses to success?"
+msgstr ""
+
+#: patterns/faq-section.php:35
+msgid "3. What industries can you guide through space?"
+msgstr ""
+
+#: patterns/faq-section.php:41
+msgid "4. Do you help startups lift off?"
+msgstr ""
+
+#: patterns/faq-section.php:51
+msgid "5. What does “universe of opportunities” mean?"
+msgstr ""
+
+#: patterns/faq-section.php:57
+msgid "6. Can you provide mission support after launch?"
+msgstr ""
+
+#: patterns/faq-section.php:63
+msgid "7. What sets your cosmic strategies apart?"
+msgstr ""
+
+#: patterns/faq-section.php:69
+msgid "8. How do you help companies reach new frontiers?"
+msgstr ""
+
+#: patterns/footer.php
+msgctxt "Pattern title"
+msgid "Footer"
+msgstr ""
+
+#: patterns/footer.php:17
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste."
+msgstr ""
+
+#: patterns/footer.php:21
+msgid "+1234567890"
+msgstr ""
+
+#: patterns/footer.php:25
+msgid "support@example.com"
+msgstr ""
+
+#: patterns/footer.php:29
+msgid "123 Green Street, business City, Country"
+msgstr ""
+
+#: patterns/footer.php:35
+msgid "quick links"
+msgstr ""
+
+#: patterns/footer.php:40
+msgid "home"
+msgstr ""
+
+#: patterns/footer.php:44
+msgid "about us"
+msgstr ""
+
+#: patterns/footer.php:48
+#: patterns/footer.php:63
+msgid "services"
+msgstr ""
+
+#: patterns/footer.php:52
+msgid "pages"
+msgstr ""
+
+#: patterns/footer.php:56
+msgid "contact us"
+msgstr ""
+
+#: patterns/footer.php:68
+msgid "Satellite Launch"
+msgstr ""
+
+#: patterns/footer.php:72
+msgid "Space Communication"
+msgstr ""
+
+#: patterns/footer.php:76
+msgid "Earth Observation"
+msgstr ""
+
+#: patterns/footer.php:80
+msgid "Space Tourism"
+msgstr ""
+
+#: patterns/footer.php:84
+msgid "Space Maintenance"
+msgstr ""
+
+#: patterns/footer.php:91
+msgid "resources"
+msgstr ""
+
+#: patterns/footer.php:96
+msgid "FAQ's"
+msgstr ""
+
+#: patterns/footer.php:100
+msgid "Case Studies"
+msgstr ""
+
+#: patterns/footer.php:104
+msgid "Sustainability Tips"
+msgstr ""
+
+#: patterns/footer.php:108
+msgid "Reports & Guidelines"
+msgstr ""
+
+#: patterns/footer.php:112
+msgid "Careers"
+msgstr ""
+
+#: patterns/footer.php:122
+msgid "Space Exploration WordPress Theme Proudly powered by "
+msgstr ""
+
+#: patterns/footer.php:122
+msgid "Ovation Themes"
+msgstr ""
+
+#: patterns/footer.php:122
+msgid "WordPress"
+msgstr ""
+
+#: patterns/gallery-section.php
+msgctxt "Pattern title"
+msgid "Gallery Section"
+msgstr ""
+
+#: patterns/gallery-section.php:11
+msgid "our gallery"
+msgstr ""
+
+#: patterns/gallery-section.php:15
+msgid "deep space through our lens"
+msgstr ""
+
+#: patterns/header-image.php
+msgctxt "Pattern title"
+msgid "Header Image"
+msgstr ""
+
+#: patterns/header.php
+msgctxt "Pattern title"
+msgid "Header"
+msgstr ""
+
+#: patterns/index-header-image.php
+msgctxt "Pattern title"
+msgid "Index Header Image"
+msgstr ""
+
+#: patterns/index-header-image.php:11
+msgid "blog"
+msgstr ""
+
+#: patterns/latest-news.php
+msgctxt "Pattern title"
+msgid "Latest News"
+msgstr ""
+
+#: patterns/latest-news.php:11
+msgid "our blog"
+msgstr ""
+
+#: patterns/latest-news.php:15
+msgid "latest articles"
+msgstr ""
+
+#: patterns/more-post.php
+msgctxt "Pattern title"
+msgid "More Post"
+msgstr ""
+
+#: patterns/more-post.php:11
+msgid "More Articles &amp; Posts"
+msgstr ""
+
+#: patterns/page-title.php
+msgctxt "Pattern title"
+msgid "Page Title"
+msgstr ""
+
+#: patterns/search-product.php
+msgctxt "Pattern title"
+msgid "Search Product"
+msgstr ""
+
+#: patterns/search-product.php:42
+msgid "No products were found matching your selection."
+msgstr ""
+
+#: patterns/search.php
+msgctxt "Pattern title"
+msgid "Search"
+msgstr ""
+
+#: patterns/sidebar.php
+msgctxt "Pattern title"
+msgid "Sidebar"
+msgstr ""
+
+#: patterns/sidebar.php:12
+msgid "Search"
+msgstr ""
+
+#: patterns/sidebar.php:22
+msgid "Popular Posts"
+msgstr ""
+
+#: patterns/sidebar.php:38
+msgid "Categories"
+msgstr ""
+
+#: patterns/sidebar.php:48
+msgid "Archives"
+msgstr ""
+
+#: patterns/sidebar.php:58
+msgid "Tags"
+msgstr ""
+
+#: patterns/sidebar.php:68
+msgid "Follow Us"
+msgstr ""
+
+#: patterns/single-product.php
+msgctxt "Pattern title"
+msgid "Single Product"
+msgstr ""
+
+#: patterns/single-product.php:46
+msgid "Related Products"
+msgstr ""
+
+#: patterns/testimonial.php
+msgctxt "Pattern title"
+msgid "Testimonial"
+msgstr ""
+
+#: patterns/testimonial.php:12
+msgid "testimonial"
+msgstr ""
+
+#: patterns/testimonial.php:16
+msgid "what our clients say"
+msgstr ""
+
+#: patterns/testimonial.php:27
+msgid "Ava Mitchell"
+msgstr ""
+
+#: patterns/testimonial.php:31
+msgid "StellarCorp has transformed the way we explore growth. Their futuristic strategies and innovative solutions open new frontiers without losing balance. The results we achieve are unmatched—brilliant, sustainable, and always on time."
+msgstr ""
+
+#: patterns/testimonial.php:45
+msgid "Rahul Desai"
+msgstr ""
+
+#: patterns/testimonial.php:49
+msgid "OrbitX has redefined our journey. Their forward-thinking practices and cutting-edge guidance launch us further without drifting off course. The outcomes are extraordinary—powerful, consistent, and delivered with precision."
+msgstr ""
+
+#: patterns/testimonial.php:63
+msgid "Claire Benson"
+msgstr ""
+
+#: patterns/testimonial.php:67
+msgid "CosmicEdge has taken our business beyond boundaries. Their galaxy of expertise fuels progress without compromise. The impact is stellar—reliable, sustainable, and truly out of this world."
+msgstr ""
+
+#: patterns/testimonial.php:81
+msgid "Liam Chen"
+msgstr ""
+
+#: patterns/testimonial.php:85
+msgid "Nebula Consulting has changed the way we navigate challenges. Their cosmic vision and futuristic approach light the path without disruption. The value we receive is unmatched—innovative, efficient, and always shining bright."
+msgstr ""
+
+#: patterns/testimonial.php:99
+msgid "Sophia James"
+msgstr ""
+
+#: patterns/testimonial.php:103
+msgid "GalaxyRise has elevated our mission. Their star-powered strategies and sustainable models help us soar higher without losing stability. The success we experience is exceptional—stellar, impactful, and right on time."
+msgstr ""
+
+#: styles/dark-green.json
+msgctxt "Style variation name"
+msgid "Dark Green"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/dark-purple.json
+#: styles/dark-reddish-brown.json
+#: styles/dark-teal-green.json
+#: styles/deep-blue.json
+#: styles/deep-green.json
+#: styles/deep-indigo-purple.json
+#: styles/muted-burgundy.json
+#: theme.json
+msgctxt "Color name"
+msgid "Base"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/dark-purple.json
+#: styles/dark-reddish-brown.json
+#: styles/dark-teal-green.json
+#: styles/deep-blue.json
+#: styles/deep-green.json
+#: styles/deep-indigo-purple.json
+#: styles/muted-burgundy.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/dark-purple.json
+#: styles/dark-reddish-brown.json
+#: styles/dark-teal-green.json
+#: styles/deep-blue.json
+#: styles/deep-green.json
+#: styles/deep-indigo-purple.json
+#: styles/muted-burgundy.json
+#: theme.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/dark-purple.json
+#: styles/dark-reddish-brown.json
+#: styles/dark-teal-green.json
+#: styles/deep-blue.json
+#: styles/deep-green.json
+#: styles/deep-indigo-purple.json
+#: styles/muted-burgundy.json
+#: theme.json
+msgctxt "Color name"
+msgid "Primary Light"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/dark-purple.json
+#: styles/dark-reddish-brown.json
+#: styles/dark-teal-green.json
+#: styles/deep-blue.json
+#: styles/deep-green.json
+#: styles/deep-indigo-purple.json
+#: styles/muted-burgundy.json
+#: theme.json
+msgctxt "Color name"
+msgid "Footer Background"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/dark-purple.json
+#: styles/dark-reddish-brown.json
+#: styles/dark-teal-green.json
+#: styles/deep-blue.json
+#: styles/deep-green.json
+#: styles/deep-indigo-purple.json
+#: styles/muted-burgundy.json
+#: theme.json
+msgctxt "Color name"
+msgid "Section Background"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/dark-purple.json
+#: styles/dark-reddish-brown.json
+#: styles/dark-teal-green.json
+#: styles/deep-blue.json
+#: styles/deep-green.json
+#: styles/deep-indigo-purple.json
+#: styles/muted-burgundy.json
+#: theme.json
+msgctxt "Color name"
+msgid "Text Color"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/dark-purple.json
+#: styles/dark-reddish-brown.json
+#: styles/dark-teal-green.json
+#: styles/deep-blue.json
+#: styles/deep-green.json
+#: styles/deep-indigo-purple.json
+#: styles/muted-burgundy.json
+#: theme.json
+msgctxt "Color name"
+msgid "Headings"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/dark-purple.json
+#: styles/dark-reddish-brown.json
+#: styles/dark-teal-green.json
+#: styles/deep-blue.json
+#: styles/deep-green.json
+#: styles/deep-indigo-purple.json
+#: styles/muted-burgundy.json
+#: theme.json
+msgctxt "Color name"
+msgid "Background"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/dark-purple.json
+#: styles/dark-reddish-brown.json
+#: styles/dark-teal-green.json
+#: styles/deep-blue.json
+#: styles/deep-green.json
+#: styles/deep-indigo-purple.json
+#: styles/muted-burgundy.json
+#: theme.json
+msgctxt "Color name"
+msgid "Border Color"
+msgstr ""
+
+#: styles/dark-green.json
+#: styles/dark-purple.json
+#: styles/dark-reddish-brown.json
+#: styles/dark-teal-green.json
+#: styles/deep-blue.json
+#: styles/deep-green.json
+#: styles/deep-indigo-purple.json
+#: styles/muted-burgundy.json
+#: theme.json
+msgctxt "Color name"
+msgid "Sidebar Shadow Color"
+msgstr ""
+
+#: styles/dark-purple.json
+msgctxt "Style variation name"
+msgid "Dark Purple"
+msgstr ""
+
+#: styles/dark-reddish-brown.json
+msgctxt "Style variation name"
+msgid "Dark Reddish Brown"
+msgstr ""
+
+#: styles/dark-teal-green.json
+msgctxt "Style variation name"
+msgid "Dark Teal Green"
+msgstr ""
+
+#: styles/deep-blue.json
+msgctxt "Style variation name"
+msgid "Deep Blue"
+msgstr ""
+
+#: styles/deep-green.json
+msgctxt "Style variation name"
+msgid "Deep Green"
+msgstr ""
+
+#: styles/deep-indigo-purple.json
+msgctxt "Style variation name"
+msgid "Deep Indigo Purple"
+msgstr ""
+
+#: styles/muted-burgundy.json
+msgctxt "Style variation name"
+msgid "Muted Burgundy"
+msgstr ""
+
+#: theme.json
+msgctxt "Style variation name"
+msgid "Lite"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to base left"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to base right"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal base to heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to base"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to primary left"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to primary right"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal heading to primary"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Lora"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "lato"
+msgstr ""
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Roboto"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Body Text"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Small"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Medium"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Regular"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Extra Large"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Big"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Huge"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Gigantic"
+msgstr ""
+
+#: theme.json
+msgctxt "Font size name"
+msgid "Banner Title"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr ""
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Grid Layout(Archieve posts)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Left Sidebar(Archieve posts)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Right Sidebar(Archieve posts)"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page Left Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page Right Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page Without Header Image"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Post Left Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Post No Sidebar"
+msgstr ""
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Post Without Header Image"
+msgstr ""
