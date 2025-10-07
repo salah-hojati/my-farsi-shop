@@ -23,6 +23,23 @@ docker-compose -f docker-compose.prod.yml  exec -T db mysql -u root -ppassword w
 echo "🔄 Step 3: Updating WordPress URLs for production environment..."
 docker-compose -f docker-compose.prod.yml  exec db mysql -u root -ppassword wordpress -e "UPDATE wp_options SET option_value = 'http://127.0.0.1:8000' WHERE option_name IN ('home', 'siteurl');"
 
+echo "📝 Updating wp-config.php for cookies..."
+# Add cookie fixes to wp-config.php
+if grep -q "COOKIE_DOMAIN" data/wp-config.php; then
+    echo "✅ Cookie settings already in wp-config.php"
+else
+    cat >> data/wp-config.php << 'EOF'
+
+// Fix cookie issues for Docker environment
+define('COOKIE_DOMAIN', '');
+define('ADMIN_COOKIE_PATH', '/');
+define('COOKIEPATH', '');
+define('SITECOOKIEPATH', '');
+EOF
+    echo "✅ Cookie settings added to wp-config.php"
+fi
+
+
 echo "🐳 Step 4: Restarting containers with fresh data..."
 docker-compose -f docker-compose.prod.yml down
 docker-compose -f docker-compose.prod.yml up -d
