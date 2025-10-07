@@ -29,6 +29,18 @@ services:
       - ./data:/var/www/html
       - ./php-config/php.ini:/usr/local/etc/php/conf.d/custom.ini
     user: "1000:1000"
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: db
+      MYSQL_ROOT_PASSWORD: password
+    depends_on:
+      - db
 
 volumes:
   db_data:
+
+

@@ -14,3 +14,12 @@ sudo chmod -R 755 /home/salah/IdeaProjects/my-farsi-shop
 
 /home/salah/IdeaProjects/my-farsi-shop
 
+
+
+
+--------
+docker-compose -f docker-compose.dev.yml exec db mysql -u root -ppassword
+
+USE wordpress;
+SHOW TABLES;
+
