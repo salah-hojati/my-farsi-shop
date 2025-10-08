@@ -27,3 +27,7 @@ docker-compose -f docker-compose.dev.yml exec db mysql -u root -ppassword wordpr
 USE wordpress;
 SHOW TABLES;
 
+
+new database in https://salah.runflare.run/wp-admin/install.php?language=fa_IR
+word press pass:
+I#5^og()6AE8wF&mBP
