@@ -51,6 +51,8 @@ echo "✅ Step 6: Verifying database synchronization..."
 PROD_TABLES=$(docker-compose  -f docker-compose.prod.yml  exec -T db mysql -u root -ppassword wordpress -e "SHOW TABLES;" | wc -l)
 PROD_PAGES=$(docker-compose -f docker-compose.prod.yml exec -T db mysql -u root -ppassword wordpress -e "SELECT COUNT(*) FROM wp_posts WHERE post_type = 'page' AND post_status = 'publish';" | tail -1)
 docker-compose -f docker-compose.prod.yml exec -T db mysql -u root -ppassword wordpress -e "UPDATE wp_options SET option_value = 'http://91.216.104.107:8000' WHERE option_name IN ( 'siteurl');"
+sleep 10
+
 echo "📊 Synchronization Report:"
 echo "   - Tables in production: $PROD_TABLES"
 echo "   - Published pages in production: $PROD_PAGES"
