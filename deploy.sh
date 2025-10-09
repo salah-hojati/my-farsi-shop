@@ -1,6 +1,10 @@
 #!/bin/bash
-docker-compose -f docker-compose.prod.yml up -d
+
 set -e  # Exit on any error
+echo "🔄 Step 1: Pulling latest code and database backup..."
+git pull origin v0
+
+docker-compose -f docker-compose.prod.yml up -d
 
 # 🚨 CRITICAL: Wait for MySQL to be fully initialized
 echo "⏳ Waiting for MySQL to be ready (this can take 30+ seconds)..."
@@ -11,8 +15,7 @@ done
 echo "✅ MySQL is ready!"
 echo "🎯 Starting deployment - Database synchronization..."
 
-echo "🔄 Step 1: Pulling latest code and database backup..."
-git pull origin v0
+
 
 # Create database directory if it doesn't exist
 mkdir -p database
