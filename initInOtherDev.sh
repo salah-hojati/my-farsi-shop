@@ -10,7 +10,7 @@ echo "🎯 Starting deployment - Database synchronization..."
 
 # Load environment variables
 
-    echo "⚠️  No .env.prod file found, using defaults"
+
     DB_USER="root"
     DB_PASSWORD="password"
     DB_NAME="wordpress"
