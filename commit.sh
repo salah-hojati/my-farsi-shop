@@ -7,8 +7,7 @@ echo "📦 Starting backup - Preparing database for production..."
 mkdir -p database
 
 echo "🗄️ Step 1: Exporting database from development..."
-# Fix your backup command
-docker-compose -f docker-compose.dev.yml exec db mysqldump -u root -ppassword --skip-tz-utc --column-statistics=0 wordpress > database/wordpress_backup.sql
+
 echo "✅ Step 2: Verifying backup file..."
 if [ ! -f "database/wordpress_backup.sql" ]; then
     echo "❌ Backup failed - no file created!"
