@@ -1,8 +1,8 @@
 #!/bin/bash
 set -e  # Exit on any error
 
-docker-compose -f docker-compose.dev.yml down
-docker-compose -f docker-compose.dev.yml up -d
+#docker-compose -f docker-compose.dev.yml down
+#docker-compose -f docker-compose.dev.yml up -d
 #sudo docker volume rm my-farsi-shop_db_data
 #docker-compose -f docker-compose.dev.yml up -d --force-recreate
 
