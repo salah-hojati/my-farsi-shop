@@ -8,6 +8,8 @@ git pull origin v0
     DB_NAME="wordpress"
     DB_HOST="db"
     MYSQL_ROOT_PASSWORD="password"
+
+docker-compose -f docker-compose.prod.yml down
 docker-compose -f docker-compose.prod.yml up -d
 
 # 🚨 CRITICAL: Wait for MySQL to be fully initialized
