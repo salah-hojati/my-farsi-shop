@@ -5,6 +5,15 @@ echo "📦 Starting backup - Preparing database for production..."
 
 # Create database directory if it doesn't exist
 mkdir -p database
+echo "🔍 Verification Script"
+
+# منتظر بمانیم MariaDB آماده شود
+echo "⏳ Waiting for database to be ready..."
+until docker-compose -f docker-compose.dev.yml exec db mysql -u root -ppassword -e "SELECT 1;" > /dev/null 2>&1; do
+    sleep 5
+done
+
+echo "✅ Database is ready!"
 
 echo "🗄️ Step 1: Exporting database from development..."
 
@@ -13,6 +22,8 @@ if [ ! -f "database/wordpress_backup.sql" ]; then
     echo "❌ Backup failed - no file created!"
     exit 1
 fi
+
+
 
 # Count tables and pages for verification
 BACKUP_TABLES=$(grep -c "CREATE TABLE" database/wordpress_backup.sql || true)
