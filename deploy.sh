@@ -3,7 +3,11 @@
 set -e  # Exit on any error
 echo "🔄 Step 1: Pulling latest code and database backup..."
 git pull origin v0
-
+    DB_USER="root"
+    DB_PASSWORD="password"
+    DB_NAME="wordpress"
+    DB_HOST="db"
+    MYSQL_ROOT_PASSWORD="password"
 docker-compose -f docker-compose.prod.yml up -d
 
 # 🚨 CRITICAL: Wait for MySQL to be fully initialized
