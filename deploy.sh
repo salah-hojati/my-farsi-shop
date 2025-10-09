@@ -1,6 +1,14 @@
 #!/bin/bash
+docker-compose -f docker-compose.prod.yml up -d
 set -e  # Exit on any error
 
+# 🚨 CRITICAL: Wait for MySQL to be fully initialized
+echo "⏳ Waiting for MySQL to be ready (this can take 30+ seconds)..."
+until docker-compose -f docker-compose.dev.yml exec -T db mysql -u $DB_USER -p$DB_PASSWORD -e "SELECT 1;" > /dev/null 2>&1; do
+    echo "MySQL not ready yet... waiting 10 seconds"
+    sleep 10
+done
+echo "✅ MySQL is ready!"
 echo "🎯 Starting deployment - Database synchronization..."
 
 echo "🔄 Step 1: Pulling latest code and database backup..."
