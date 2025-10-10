@@ -4,7 +4,7 @@ services:
   db:
     image: mariadb:10.6
     volumes:
-      - db_data:/var/lib/mysql
+      - db_data:/var/lib/mariadb
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
