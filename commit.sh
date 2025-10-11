@@ -38,6 +38,6 @@ echo "   - حجم فایل: $((BACKUP_SIZE / 1024)) KB"
 echo "🚀 آپلود به GitHub..."
 git add .
 git commit -m "پشتیبان وردپرس: $(date '+%Y-%m-%d %H:%M:%S') - $BACKUP_PAGES صفحه, $BACKUP_TABLES جدول" || echo "تغییری برای commit وجود ندارد"
-git push origin v0
+git push origin v1
 
 echo "🎉 پشتیبان‌گیری با موفقیت انجام شد!"

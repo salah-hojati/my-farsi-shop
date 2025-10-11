@@ -2,7 +2,7 @@
 
 set -e  # Exit on any error
 echo "🔄 Step 1: Pulling latest code and database backup..."
-git pull origin v0
+git pull origin v1
     DB_USER="root"
     DB_PASSWORD="password"
     DB_NAME="wordpress"
