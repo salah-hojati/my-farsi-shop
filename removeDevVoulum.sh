@@ -8,3 +8,4 @@ docker volume rm my-farsi-shop_db_data
 
 # منتظر بمانیم MariaDB کامل بالا بیاد
 sleep 30
+
